@@ -68,6 +68,7 @@ nav{
     grid-template-columns: repeat(8, 1fr);
     gap: 10px;
     position: relative;
+    margin-bottom: 45px !important;
     /* justify-content: space-between; */
 }
 nav .logo{
@@ -110,12 +111,15 @@ nav .h-icon{
     justify-content: space-evenly;
 }
 nav .h-icon i{
-    border: 1px solid;
     border-radius: 50%;
-    padding: 5px;
-    font-size: 15px;
     transition: var(--tran);
     cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 nav .h-icon i:hover{
     background-color: var(--fontColor1);
@@ -475,6 +479,13 @@ footer .social-links .media-links i:hover{
     .plus{
         font-size: 40px;
         text-align: center;
+    }
+    .input_phoneS{
+        padding: 15px;
+        outline: none;
+        background: #dbd9d9;
+        border-radius: 10px;
+        color: #FFF;
     }
     .drop-mune:checked + .dis-phone-block{
         display: block;
